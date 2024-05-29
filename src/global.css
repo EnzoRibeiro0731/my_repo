@@ -1,0 +1,12 @@
+:root {
+--rich-black: #0D1117ff;
+--rich-black-2: #0D1117ff;
+--rich-black-3: #0D1117ff;
+--rich-black-4: #0D1117ff;
+--rich-black-5: #0D1117ff;
+}
+
+body {
+    background: rgb(4, 1, 68);
+    font-family: Arial, Helvetica, sans-serif;
+}

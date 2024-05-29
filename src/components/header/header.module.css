@@ -1,0 +1,10 @@
+.logos {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+header{
+    background-color: bisque;
+}
