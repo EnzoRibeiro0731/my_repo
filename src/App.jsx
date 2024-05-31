@@ -17,7 +17,6 @@ function App() {
         <Projects />
       
           <Infos />
-          <br /><br /><br /><br /><br /><br /><br /><br />
             <Contact />
       </div>
   )
