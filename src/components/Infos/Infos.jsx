@@ -10,7 +10,7 @@ import azure from '../../assets/azure.svg'
 export function Infos() {
     return (
         <>
-         <div className={styles.container}>
+         <div id="about-me" className={styles.container}>
       <div className={styles.knowledge}>
         <h2>Basic knowledge of:</h2>
         <ul>
