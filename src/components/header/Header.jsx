@@ -2,7 +2,7 @@ import styles from './header.module.css'
 
 export function Header() {
     return (
-        <><header className={styles.header}>
+        <><header id="home" className={styles.header}>
             <nav>
                 <ul className={styles.navlist}>
                     <li className={styles.navitem}><a href="#home" className={styles.navlink}>home</a></li>
