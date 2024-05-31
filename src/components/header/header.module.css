@@ -1,10 +1,32 @@
-.logos {
+.header {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0B2545;
+  color: white;
+  padding: 10px 20px;
+  }
+  
+  .navlist {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    padding: 1rem 0;
-    cursor: pointer;
-}
-header{
-    background-color: bisque;
-}
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navitem {
+    margin-left: 20px;
+  }
+  
+  .navlink {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .navlink:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px rgba(188, 162, 207, 0.4);
+    background: transparent;
+  }
